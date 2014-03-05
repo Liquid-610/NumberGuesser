@@ -1,0 +1,5 @@
+C:\Users\eahscs\Documents\GitHub\NumberGuesser\numberguesser\numberguesser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\NumberGuesser\numberguesser\numberguesser\bin\Debug\numberguesser.exe
+C:\Users\eahscs\Documents\GitHub\NumberGuesser\numberguesser\numberguesser\bin\Debug\numberguesser.pdb
+C:\Users\eahscs\Documents\GitHub\NumberGuesser\numberguesser\numberguesser\obj\x86\Debug\numberguesser.exe
+C:\Users\eahscs\Documents\GitHub\NumberGuesser\numberguesser\numberguesser\obj\x86\Debug\numberguesser.pdb
