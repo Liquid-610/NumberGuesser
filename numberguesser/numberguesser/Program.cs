@@ -10,17 +10,16 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             String input;
-
+           
             int fitty = 50;
-            int guess = fitty + 25;
-            int guess2 = fitty / 2;
-            //int guessh = guess2 + guess;
-            //int guessl = guess - guess2;
+            int guessl = fitty / 2;
+            int guessh = fitty + guessl;
+            
             
 
 
 
-            while (guess <= 100) 
+            while (true) 
             {
                
 
@@ -29,14 +28,14 @@ namespace ConsoleApplication1
 
                 input = Console.ReadLine();
 
-                if (input == "h")
+                if (input == "h" )
                 {
-                    Console.WriteLine("{0}", guess);
+                    Console.WriteLine("{0}", guessh);
 
                 }
                 else if (input == "l")
                 {
-                Console.WriteLine("{0}", guess2);
+                Console.WriteLine("{0}", guessl);
                 }
 
                 else if (input =="e")
