@@ -42,29 +42,25 @@ namespace ConsoleApplication1
 
                     case "e":
                         Console.WriteLine("I Win!!! Do you want to play again? (y) or (n)");
+
+
+
                         break;
 
-                        if (input == "y")
-                        {
-                            
-                        }
-                        else
-                        {
-                            break;
-                        }
+                        
                 }
 
                        
                         
-                }
+            }
 
                
 
               
-                }
-             
-           }
-        
         }
+             
+    }
+        
+}
     
 
