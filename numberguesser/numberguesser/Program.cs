@@ -10,45 +10,42 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             String input;
+            int numguess = 1;
+            numguess = numguess++;
 
-            int fitty = 50;
-            int guess = fitty + 25;
-            int guess2 = fitty / 2;
-            //int guessh = guess2 + guess;
-            //int guessl = guess - guess2;
-            
-
-
-
-            while (guess <= 100) 
+            while (numguess <= 7) 
             {
                
 
 
-                Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?", fitty);
+                Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?");
 
                 input = Console.ReadLine();
 
                 if (input == "h")
                 {
-                    Console.WriteLine("{0}", guess);
+                    Console.WriteLine("i work");
 
                 }
                 else if (input == "l")
                 {
-                Console.WriteLine("{0}", guess2);
+                Console.WriteLine("i work 2");
                 }
 
                 else if (input =="e")
 
                     Console.WriteLine("I Win!!!!");
-                
-                
 
-                
+                if (numguess == 8)
+                {
+                    Console.WriteLine(" I Lose :( ");
                 }
-           }
 
+              
+                }
+             
+           }
+        
         }
     }
 
