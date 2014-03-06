@@ -13,33 +13,52 @@ namespace ConsoleApplication1
             int numguess = 1;
             numguess = numguess++;
 
+            int guess, low = 0, high = 100;
+
+
             while (numguess <= 7) 
             {
                
+                guess = (low + high) / 2;
 
-
-                Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?");
+                Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?",guess);
 
                 input = Console.ReadLine();
 
-                if (input == "h")
+               
+
+                switch (input)
                 {
-                    Console.WriteLine("i work");
+                    case "h":
 
+                        low = guess + 1;
+                        Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?", guess);
+                        break;
+
+                    case "l": 
+                        high = guess - 1;
+                        Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?", guess);
+                        break;
+
+                    case "e":
+                        Console.WriteLine("I Win!!! Do you want to play again? (y) or (n)");
+                        break;
+
+                        if (input == "y")
+                        {
+                            
+                        }
+                        else
+                        {
+                            break;
+                        }
                 }
-                else if (input == "l")
-                {
-                Console.WriteLine("i work 2");
+
+                       
+                        
                 }
 
-                else if (input =="e")
-
-                    Console.WriteLine("I Win!!!!");
-
-                if (numguess == 8)
-                {
-                    Console.WriteLine(" I Lose :( ");
-                }
+               
 
               
                 }
@@ -47,5 +66,5 @@ namespace ConsoleApplication1
            }
         
         }
-    }
+    
 
