@@ -11,32 +11,32 @@ namespace ConsoleApplication1
         {
             String input;
 
-            int guess = 50;
-            int guess2 = guess / 2;
-            int guessh = guess2 + guess;
-            int guessl = guess - guess2;
+            int fitty = 50;
+            int guess = fitty + 25;
+            int guess2 = fitty / 2;
+            //int guessh = guess2 + guess;
+            //int guessl = guess - guess2;
+            
 
 
 
-
-            while (guess == 50)
+            while (guess <= 100) 
             {
-                guess = 100 / 2;
-                guess = (100 / 2) + guess2;
+               
 
 
-                Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to 50?");
+                Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?", fitty);
 
                 input = Console.ReadLine();
 
                 if (input == "h")
                 {
-                    Console.WriteLine("{0}", guessh);
+                    Console.WriteLine("{0}", guess);
 
                 }
                 else if (input == "l")
                 {
-                Console.WriteLine("{0}", guessl);
+                Console.WriteLine("{0}", guess2);
                 }
 
                 else if (input =="e")
