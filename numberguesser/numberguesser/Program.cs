@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 namespace ConsoleApplication1
 {
     class Program
@@ -32,18 +33,18 @@ namespace ConsoleApplication1
                     case "h":
 
                         low = guess + 1;
-                        Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?", guess);
+                       
                         break;
 
                     case "l": 
                         high = guess - 1;
-                        Console.WriteLine("Is your number higher(h) , lower(l) or equal(e) to {0}?", guess);
+                        
                         break;
 
                     case "e":
-                        Console.WriteLine("I Win!!! Do you want to play again? (y) or (n)");
+                        Console.WriteLine("I Win!!!");
 
-
+                        System.Environment.Exit(-1);
 
                         break;
 
